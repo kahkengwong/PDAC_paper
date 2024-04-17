@@ -4,8 +4,8 @@ GitHub: [kahkengwong/PDAC_paper](https://github.com/kahkengwong/PDAC_paper)
 
 ## Dataset Folder
 This folder contains:
-1. **Expression Matrix**: PDAC and asymptomatic control cases expression matrix for DEGs analysis using edgeR scripts in the `PDAC_DEGs_edgeR.r` file.
-2. **ML Datasets**: The training, test, and calibration sets for ML.
+1. **Expression Matrix**: Pancreatic ductal adenocarcinoma (PDAC) and asymptomatic control cases expression matrix for DEGs analysis using edgeR scripts in the `PDAC_DEGs_edgeR.r` file.
+2. **Machine Learning (ML) Datasets**: The training, test, and calibration sets for ML.
 
 ## ML Scripts
 Scripts should be used in the following sequence, corresponding to the flow of the main project/manuscript:
