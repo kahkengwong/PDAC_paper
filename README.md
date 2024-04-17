@@ -1,6 +1,5 @@
 # PDAC ML Paper Repository
 Author: Kah Keng Wong  
-Email: [kahkeng@usm.my](mailto:kahkeng@usm.my); [kahkeng3@gmail.com](mailto:kahkeng3@gmail.com)  
 GitHub: [kahkengwong/PDAC_paper](https://github.com/kahkengwong/PDAC_paper)
 
 ## Dataset Folder
