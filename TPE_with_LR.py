@@ -65,8 +65,6 @@ def plot_tpe_performance_seaborn(trials, num_genes, csf_name, max_evals):
 
 # Perform the training with TPE and LR, obtain the best model and its performance metrics in training and test sets before and after Platt calibration
 def run_analysis(max_evals, n_startup_jobs, gene_list, csf, csf_name):
-    np.random.seed(1) 
-    random.seed(1) 
     train_data = pd.read_excel("PDAC_Ctrl_All_Cases_Split-60-Training_n=82.xlsx")
     test_data = pd.read_excel("PDAC_Ctrl_All_Cases_Split-30-Test_n=41.xlsx")
 
