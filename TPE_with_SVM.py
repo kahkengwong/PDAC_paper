@@ -125,8 +125,8 @@ def run_analysis(max_evals, n_startup_jobs, gene_list, csf, csf_name):
     # Find the trial with the highest custom score
     best_trial_result = max(trials.results, key=lambda x: -x['loss'])
     best_trial_index = trials.results.index(best_trial_result)
-    best_trial_score = -best_trial_result['loss']  # Correctly calculate the best trial score
-    best_trial_iteration = best_trial_index + 1  # Make the iteration number human-readable
+    best_trial_score = -best_trial_result['loss']
+    best_trial_iteration = best_trial_index + 1
     print(f"Best Custom Score (CSF): {best_trial_score}, Iteration: {best_trial_iteration}")
     plot_tpe_performance_seaborn(trials, len(gene_list), csf_name, max_evals)
     best_trial_params_raw = trials.trials[best_trial_index]['misc']['vals']
