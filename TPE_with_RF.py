@@ -97,8 +97,7 @@ def run_analysis(max_evals, n_startup_jobs, gene_list, csf, csf_name):
         'max_depth': hp.choice('max_depth', [None] + list(range(5, 51))),
         'max_leaf_nodes': hp.choice('max_leaf_nodes', [None] + list(range(10, 1001, 10))),
         'min_samples_split': hp.uniform('min_samples_split', 0.02, 0.1),
-        'min_samples_leaf': hp.uniform('min_samples_leaf', 0.02, 0.1),
-        'bootstrap': hp.choice('bootstrap', [True, False])
+        'min_samples_leaf': hp.uniform('min_samples_leaf', 0.02, 0.1)
     }
 
     iteration_results = pd.DataFrame(columns=['Iteration', 'Score', 'Hyperparameters'])
