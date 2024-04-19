@@ -93,11 +93,11 @@ def run_analysis(max_evals, n_startup_jobs, gene_list, csf, csf_name):
     space = {
         'n_estimators': hp.choice('n_estimators', [10, 50, 100, 250, 500]),
         'criterion': hp.choice('criterion', ['gini', 'entropy']),
-        'min_impurity_decrease': hp.uniform('min_impurity_decrease', 0.0, 0.1),  # Reduced upper limit
+        'min_impurity_decrease': hp.uniform('min_impurity_decrease', 0.0, 0.1),
         'max_depth': hp.choice('max_depth', [None] + list(range(5, 51))),
         'max_leaf_nodes': hp.choice('max_leaf_nodes', [None] + list(range(10, 1001, 10))),
-        'min_samples_split': hp.uniform('min_samples_split', 0.02, 0.1),  # Adjusted range
-        'min_samples_leaf': hp.uniform('min_samples_leaf', 0.02, 0.1),  # Adjusted range
+        'min_samples_split': hp.uniform('min_samples_split', 0.02, 0.1),
+        'min_samples_leaf': hp.uniform('min_samples_leaf', 0.02, 0.1),
         'bootstrap': hp.choice('bootstrap', [True, False])
     }
 
