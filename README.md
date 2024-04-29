@@ -13,7 +13,7 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 2. `Pre-ensemble_xxx.py`: Execute the best genes combination and the best hyperparameters for each ML algorithm, returning their probabilities within the Python environment.
 3. `Ensemble_Combining_Any_Two_or_Three_Models.py`: Perform ensemble modeling combining any two or three individual models.
 4. `Ensemble_CLR_of_SVM-RF-GBM_Model.py`: Perform custom logistic recalibration (CLR) on the best ensemble model i.e., the SVM:RF:GBM model.
-5. `Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib`: The final CLR-calibrated SVM-RF-GBM ensemble model serialized into a Joblib file containing the exact PM values and predicted probabilities for each case in the training and test sets. This file is accessible in a Python environment.
+5. `Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib`: The final CLR-calibrated SVM:RF:GBM ensemble model serialized into a Joblib file containing the exact PM values and predicted probabilities for each case in the training and test sets. This file is accessible in a Python environment.
 
 ## Reference
 This project obtained the RNA-seq dataset from GSE183635 available on the Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183635) and in the original article by S. In 't Veld et al., 2022 (DOI: 10.1016/j.ccell.2022.08.006).
