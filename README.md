@@ -34,12 +34,12 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 ---
 
 ## 🤝 Fork and Contribute
-Interested in contributing? Fork this repository to experiment, personalize, or enhance the project:
+Interested in contributing? Fork this repository to experiment, personalize, or enhance the project.
 
 ### Quick Steps to Fork and Make Contributions
-1. **Fork**: Click the **Fork** button at the top-right of this page. This creates a copy in your GitHub account, ready for your modifications.
-2. **Modify**: Make your changes in your forked version.
-3. **Contribute**: After making modifications, consider proposing your changes back to this project through a pull request.
+1. Click the **Fork** button at the top-right of this page. This creates a copy in your GitHub account, ready for your modifications.
+2. Make your changes in your forked version.
+3. After making modifications, consider proposing your changes back to this project through a pull request.
 
 ### Updating Your Fork
 To ensure your contributions are based on the most recent version of the project, keep your fork in sync with the original:
