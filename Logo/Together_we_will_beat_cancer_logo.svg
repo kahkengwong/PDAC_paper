@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="40" viewBox="0 0 400 40">
-    <style>.big { font: bold 20px sans-serif; }</style>
-    <rect width="400" height="40" style="fill:#004C99"/>
-    <!-- Simulating ribbon graphics -->
-    <path d="M10 10 L30 20 L10 30 Z" fill="gold"/>
-    <text x="200" y="25" class="big" fill="#ffffff" text-anchor="middle">Together We Will Beat Cancer</text>
-    <path d="M390 10 L370 20 L390 30 Z" fill="gold"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20" viewBox="0 0 120 20">
+    <style>.small { font: bold 10px sans-serif; }</style>
+    <rect width="120" height="20" style="fill:#004C99"/>
+    <text x="60" y="15" class="small" fill="#ffffff" text-anchor="middle">Together we will beat cancer</text>
 </svg>
