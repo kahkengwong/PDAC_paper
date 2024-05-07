@@ -16,18 +16,9 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 5. `Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib`: The final CLR-calibrated SVM:RF:GBM ensemble model serialized into a Joblib file containing the exact PM values and predicted probabilities for each case in the training and test sets. This file is accessible in a Python environment.
 
 ## Usage
-**Clone the repository**
-
-```git clone https://github.com/kahkengwong/PDAC_paper```
-
-**Navigate to the directory**
-
-```cd PDAC_paper```
-
-**Accessing the Serialized Model**
-
-```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
-
+1. **Clone the repository**: ```git clone https://github.com/kahkengwong/PDAC_paper```
+2. **Navigate to the directory**: ```cd PDAC_paper```
+3. **Accessing the Serialized Model**: ```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
 
 ## Reference
 This project obtained the RNA-seq dataset from GSE183635 available on the Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183635) and in the original article by S. In 't Veld et al., 2022 (DOI: 10.1016/j.ccell.2022.08.006).
