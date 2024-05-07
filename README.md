@@ -65,3 +65,7 @@ This project obtained the RNA-seq dataset from GSE183635 available on the Gene E
 
 ## 📧 Contact
 For further information or questions, please email [kahkeng@usm.my](mailto:kahkeng@usm.my) or [kahkeng3@gmail.com](mailto:kahkeng3@gmail.com).
+
+---
+
+![Custom Badge](./Logo/Together_we_will_beat_cancer_logo.svg)
