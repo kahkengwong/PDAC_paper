@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20" viewBox="0 0 120 20">
-    <style>.small { font: bold 10px sans-serif; }</style>
-    <rect width="120" height="20" style="fill:#004C99"/>
-    <text x="60" y="15" class="small" fill="#ffffff" text-anchor="middle">Together we will beat cancer</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20" viewBox="0 0 200 20">
+    <style>.small { font: bold 8px sans-serif; }</style>
+    <rect width="200" height="20" style="fill:#004C99"/>
+    <text x="100" y="15" class="small" fill="#ffffff" text-anchor="middle">Together we will beat cancer</text>
 </svg>
