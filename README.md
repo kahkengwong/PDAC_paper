@@ -16,7 +16,7 @@ This folder contains:
 
 ---
 
-## 🤖 ML Scripts
+## 💻 ML Scripts
 Scripts should be used in the following sequence, corresponding to the flow of the main project/manuscript:
 1. `TPE_with_xxx.py`: Scripts to perform TPE with each of the 5 ML algorithms i.e., LR, SVM, RF, XGB, and GBM in different settings.
 2. `Pre-ensemble_xxx.py`: Execute the best genes combination and the best hyperparameters for each ML algorithm, returning their probabilities within the Python environment.
