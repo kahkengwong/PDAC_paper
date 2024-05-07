@@ -29,7 +29,7 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 ## 📟 Usage (for command line Git users)
 1. **Clone the repository**: ```git clone https://github.com/kahkengwong/PDAC_paper```
 2. **Navigate to the directory**: ```cd PDAC_paper```
-3. **Accessing the serialized model**: ```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
+3. **Accessing the serialized model**: Ensure you have Python and necessary libraries (e.g., `joblib`) installed, then run: ```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
 
 ---
 
