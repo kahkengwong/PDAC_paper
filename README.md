@@ -28,19 +28,13 @@ Interested in contributing? Fork this repository to experiment, personalize, or 
 2. **Modify**: Make your changes in your forked version.
 3. **Contribute**: After making modifications, consider proposing your changes back to this project through a pull request.
 
-### Updating Your Fork (to ensure your contributions are based on the most recent version of the project)
-Keep your fork in sync with the original project:
-1. Go to your fork on GitHub.
-2. Click **Fetch upstream**.
-3. Click **Fetch and merge**.
+### Updating Your Fork
+To ensure your contributions are based on the most recent version of the project, keep your fork in sync with the original:
+- Go to your fork on GitHub → Click **Fetch upstream** → Click **Fetch and merge**.
 
 ### Creating a Pull Request
 After making changes in your fork:
-1. Navigate to your fork on GitHub.
-2. Click **Pull Requests** at the top.
-3. Click **New Pull Request**.
-4. Review the changes, then click **Create Pull Request**.
-5. Add a title and description, then submit the pull request.
+- Navigate to your fork on GitHub → Click **Pull Requests** at the top → Click **New Pull Request** → Review the changes, then click **Create Pull Request** → Add a title and description, then submit the pull request.
 
 Your contributions are most welcome, and I look forward to seeing your innovative ideas!
 
