@@ -39,7 +39,7 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 ---
 
 ## 🤝 Fork and Contribute
-Interested in contributing? Fork this repository to experiment, personalize, or enhance the project.
+If interested in contributing, fork this repository to experiment, personalize, and enhance the project.
 
 ### Quick Steps to Fork and Make Contributions
 1. Click the **'Fork'** button at the top-right of this page. This creates a copy in your GitHub account, ready for your modifications.
@@ -53,8 +53,6 @@ To ensure your contributions are based on the most recent version of the project
 ### Creating a Pull Request
 After making changes in your fork:
 - Navigate to your fork on GitHub → Click **'Pull Requests'** at the top → Click **'New Pull Request'** → Review the changes, then click **'Create Pull Request'** → Add a title and description, then submit the pull request.
-
-Your contributions are most welcome, and I look forward to seeing your innovative ideas!
 
 ---
 
