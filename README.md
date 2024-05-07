@@ -18,7 +18,7 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 ## Usage (for command line Git users)
 1. **Clone the repository**: ```git clone https://github.com/kahkengwong/PDAC_paper```
 2. **Navigate to the directory**: ```cd PDAC_paper```
-3. **Accessing the Serialized Model**: ```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
+3. **Accessing the serialized model**: ```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
 
 ## Reference
 This project obtained the RNA-seq dataset from GSE183635 available on the Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183635) and in the original article by S. In 't Veld et al., 2022 (DOI: 10.1016/j.ccell.2022.08.006).
