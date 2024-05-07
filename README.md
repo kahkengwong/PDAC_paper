@@ -68,4 +68,4 @@ For further information or questions, please email [kahkeng@usm.my](mailto:kahke
 
 ---
 
-![Custom Badge](./Logo/Together_we_will_beat_cancer_logo.svg)
+🎗️ ![Custom Badge](./Logo/Together_we_will_beat_cancer_logo.svg) 🎗️
