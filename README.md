@@ -18,15 +18,15 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 ## Usage
 **Clone the repository**
 
-git clone [https://github.com/kahkengwong/TM4SF4_HCC_scRNA-seq.git](https://github.com/kahkengwong/PDAC_paper)
+```git clone https://github.com/kahkengwong/PDAC_paper```
 
 **Navigate to the directory**
 
-cd PDAC_paper
+```cd PDAC_paper```
 
 **Accessing the Serialized Model**
 
-python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"
+```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
 
 
 ## Reference
