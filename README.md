@@ -38,24 +38,6 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 
 ---
 
-## Fork and Contribute
-If interested in contributing, fork this repository to experiment, personalize, and enhance the project.
-
-### Quick Steps to Fork and Make Contributions
-1. Click the **'Fork'** button at the top-right of this page. This creates a copy in your GitHub account, ready for your modifications.
-2. Make your changes in your forked version.
-3. After making modifications, consider proposing your changes back to this project through a pull request.
-
-### Updating Your Fork
-To ensure your contributions are based on the most recent version of the project, keep your fork in sync with the original:
-- Go to your fork on GitHub → Click **'Fetch upstream'** → Click **'Fetch and merge'**.
-
-### Creating a Pull Request
-After making changes in your fork:
-- Navigate to your fork on GitHub → Click **'Pull Requests'** at the top → Click **'New Pull Request'** → Review the changes, then click **'Create Pull Request'** → Add a title and description, then submit the pull request.
-
----
-
 ## References
 This project obtained the RNA-seq dataset from GSE183635 available on the Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183635) and in the original article by S. In 't Veld et al., 2022 (DOI: 10.1016/j.ccell.2022.08.006).
 
