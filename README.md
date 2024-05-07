@@ -33,7 +33,7 @@ Scripts should be used in the following sequence, corresponding to the flow of t
 
 ---
 
-## 🍴 Fork and Contribute
+## 🤝 Fork and Contribute
 Interested in contributing? Fork this repository to experiment, personalize, or enhance the project:
 
 ### Quick Steps to Fork and Make Contributions
@@ -55,6 +55,8 @@ Your contributions are most welcome, and I look forward to seeing your innovativ
 
 ## 📖 References
 This project obtained the RNA-seq dataset from GSE183635 available on the Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183635) and in the original article by S. In 't Veld et al., 2022 (DOI: 10.1016/j.ccell.2022.08.006).
+
+---
 
 ## 📧 Contact
 For further information or questions, please email [kahkeng@usm.my](mailto:kahkeng@usm.my) or [kahkeng3@gmail.com](mailto:kahkeng3@gmail.com).
