@@ -10,7 +10,6 @@
 
 Author: Kah Keng Wong  
 GitHub Repository: [kahkengwong/PDAC_paper](https://github.com/kahkengwong/PDAC_paper)
-Affiliation: Department of Immunology, School of Medical Sciences, Universiti Sains Malaysia 
 
 ---
 
