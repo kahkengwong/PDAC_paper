@@ -9,7 +9,7 @@
 ![Contributors](https://img.shields.io/github/contributors/kahkengwong/PDAC_paper)
 
 Author: Kah Keng Wong  
-Affiliation: Department of Immunology, School of Medical Sciences, Universiti Sains Malaysia
+Affiliation: Department of Immunology, School of Medical Sciences, Universiti Sains Malaysia 
 GitHub Repository: [kahkengwong/PDAC_paper](https://github.com/kahkengwong/PDAC_paper)
 
 ---
