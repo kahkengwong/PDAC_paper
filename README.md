@@ -1,8 +1,5 @@
 # PDAC ML Paper Repository
 ![GitHub last commit](https://img.shields.io/github/last-commit/kahkengwong/PDAC_paper)
-[![GitHub issues](https://img.shields.io/github/issues/kahkengwong/PDAC_paper)](https://github.com/kahkengwong/PDAC_paper/issues)
-[![GitHub forks](https://img.shields.io/github/forks/kahkengwong/PDAC_paper)](https://github.com/kahkengwong/PDAC_paper/network)
-[![GitHub stars](https://img.shields.io/github/stars/kahkengwong/PDAC_paper)](https://github.com/kahkengwong/PDAC_paper/stargazers)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kahkengwong/PDAC_paper)
 ![GitHub languages](https://img.shields.io/github/languages/count/kahkengwong/PDAC_paper)
 ![GitHub top language](https://img.shields.io/github/languages/top/kahkengwong/PDAC_paper)
