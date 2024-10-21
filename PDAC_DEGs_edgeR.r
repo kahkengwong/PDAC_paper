@@ -22,8 +22,10 @@ group <- factor(c(rep(1, nrow(control_data)), rep(2, nrow(PDAC_data))))
 all_data <- t(all_data)
 rownames(all_data) <- gene_names
 
-# Create a DGEList object, perform normalization, common and tagwise dispersions
+# Create a DGEList object, filter out low expressed genes, perform normalization, common and tagwise dispersions
 dge <- DGEList(counts = all_data, group = group)
+keep <- rowSums(cpm(dge) > 1) >= 5
+dge <- dge[keep, , keep.lib.sizes=FALSE]
 dge <- calcNormFactors(dge)
 dge <- estimateCommonDisp(dge)
 dge <- estimateTagwiseDisp(dge)
