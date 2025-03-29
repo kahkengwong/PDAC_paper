@@ -1,5 +1,5 @@
 # PDAC ML Paper Repository
-Ensemble machine learning with tree-structured Parzen estimator (TPE); 3D plots of modeling for interpretability.
+Ensemble machine learning with tree-structured Parzen estimator (TPE); 3D plots of hyperparameters optimization (HPO) and objective function (OF) tracking of custom scoring function (CSF) scores for interpretability.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kahkengwong/PDAC_paper)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kahkengwong/PDAC_paper)
