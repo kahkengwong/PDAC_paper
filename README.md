@@ -8,7 +8,7 @@ Ensemble machine learning with tree-structured Parzen estimator (TPE); 3D plots 
 ![Contributors](https://img.shields.io/github/contributors/kahkengwong/PDAC_paper)
 
 Author: Kah Keng Wong  
-Preprint of the study is available on: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4809282
+Preprint of the study is available on SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4809282
 
 ---
 
