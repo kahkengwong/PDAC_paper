@@ -42,7 +42,7 @@ The objectives of this study are:
 ---
 
 ## 🔀 Workflow of the Project
-![Workflow](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/PDAC_Workflow.jpg)
+![Workflow](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Project_Workflow.jpg)
 
 - **Data Preprocessing**: Differential expression analysis using edgeR (`PDAC_DEGs_edgeR.r`) to identify DEGs from the RNA-seq expression matrix.
 - **ML Model Optimization**: TPE-based HPO for five ML algorithms, followed by selection of the best gene combinations and hyperparameters.
