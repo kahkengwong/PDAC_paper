@@ -53,10 +53,12 @@ The objectives of this study are:
 ---
 
 ## 📊 Project Key Findings
-- The **SVM:RF:GBM ensemble** outperformed individual models, achieving high accuracy and robustness in PDAC classification.
 - TPE-based HPO effectively identified optimal hyperparameters, improving model performance across all algorithms.
 - The **custom scoring function (CSF)** enhanced interpretability by quantifying model performance and feature importance.
 - 3D visualizations of HPO and OF tracking provided clear insights into the optimization process and model behavior.
+![Results1](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Results1.jpg)
+- The **SVM:RF:GBM ensemble** outperformed individual models, achieving high accuracy and robustness in PDAC classification.
+![Results2](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Results2.jpg)
 
 ---
 
@@ -103,12 +105,38 @@ To load and inspect the final ensemble model in a Python environment:
 
 ---
 
-## References
-This project obtained the RNA-seq dataset from GSE183635 available on the Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183635) and in the original article by S. In 't Veld et al., 2022 (DOI: 10.1016/j.ccell.2022.08.006).
+## 🧾 License
 
----
+This project is licensed under the [MIT License](https://github.com/kahkengwong/PDAC_paper/blob/main/LICENSE), encouraging collaboration and reuse with proper attribution. See the [LICENSE](https://github.com/kahkengwong/PDAC_paper/blob/main/LICENSE) file for details.
 
-## Contact
-For further information or questions, please email [kahkeng@usm.my](mailto:kahkeng@usm.my)
+## 🤝🏻 Contributing
 
----
+Contributions are welcome! Please open an issue or submit a pull request on GitHub for suggestions or improvements.
+
+## 📚 Citation
+
+If you found this study useful, please cite:
+
+```bibtex
+@article{wong2025ensemble,
+  title={Ensemble machine learning and tree-structured Parzen estimator to predict early-stage pancreatic cancer},
+  author={Wong, Kah Keng},
+  journal={Biomedical Signal Processing and Control},
+  volume={108},
+  pages={107867},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.bspc.2025.107867},
+  url={https://doi.org/10.1016/j.bspc.2025.107867}
+}
+```
+
+Wong KK (2025). Ensemble machine learning and tree-structured Parzen estimator to predict early-stage pancreatic cancer. *Biomedical Signal Processing and Control* 108: 107867. [DOI: 10.1016/j.bspc.2025.107867](https://doi.org/10.1016/j.bspc.2025.107867)
+
+Please also cite the source dataset:
+
+In 't Veld S et al. (2022). Integrated single-cell and bulk RNA sequencing in pancreatic cancer identifies monocyte signature associated with worse overall survival in patients. *Cancer Cell*. [DOI: 10.1016/j.ccell.2022.08.006](https://doi.org/10.1016/j.ccell.2022.08.006).
+
+## 📩 Contact
+
+For questions or further information, contact Kah Keng Wong: [kahkeng@usm.my](mailto:kahkeng@usm.my)
