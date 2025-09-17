@@ -84,9 +84,9 @@ The scripts should be executed in the following order to replicate the study:
 | 9  | `Pre-ensemble_RF.py` | Executes the best gene combination and hyperparameters for RF, returning probabilities. |
 | 10 | `Pre-ensemble_XGB.py` | Executes the best gene combination and hyperparameters for XGB, returning probabilities. |
 | 11 | `Pre-ensemble_GBM.py` | Executes the best gene combination and hyperparameters for GBM, returning probabilities. |
-| 12 | `Ensemble_Combining_Any_Two_or_Three_Models.py` | Combines two or three ML models to create ensemble models, evaluating their performance. |
-| 13 | `Ensemble_CLR_of_SVM-RF-GBM_Model.py` | Calibrates the best SVM:RF:GBM ensemble model using CLR, generating final predictions. |
-| 14 | `Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib` | Serialized Joblib file containing the final CLR-calibrated SVM:RF:GBM ensemble model, including performance metrics (PMs) and predicted probabilities. |
+| 12 | `Ensemble_Combining_Any_Two_`<br>`or_Three_Models.py` | Combines two or three ML models to create ensemble models, evaluating their performance. |
+| 13 | `Ensemble_CLR_of_SVM-RF-GBM_`<br>`Model.py` | Calibrates the best SVM:RF:GBM ensemble model using CLR, generating final predictions. |
+| 14 | `Ensemble_SVM-RF-GBM_PMs_and_`<br>`Probabilities.joblib` | Serialized Joblib file containing the final CLR-calibrated SVM:RF:GBM ensemble model, including performance metrics (PMs) and predicted probabilities. |
 
 ### Accessing the Serialized Model
 To load and inspect the final ensemble model in a Python environment:
@@ -96,9 +96,7 @@ To load and inspect the final ensemble model in a Python environment:
     print(model)
     ```
 
----
-
-## For command line Git users
+### For command line Git users
 1. **Clone the repository** - ```git clone https://github.com/kahkengwong/PDAC_paper```
 2. **Navigate to the directory** - ```cd PDAC_paper```
 3. **Accessing the serialized model** - Ensure you have Python and necessary libraries (e.g., `joblib`) installed, then run: ```python -c "import joblib; model = joblib.load('Ensemble_SVM-RF-GBM_PMs_and_Probabilities.joblib'); print(model)"```
