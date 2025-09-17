@@ -55,9 +55,10 @@ The objectives of this study are:
 ## 📊 Project Key Findings
 - TPE-based HPO effectively identified optimal hyperparameters, improving model performance across all algorithms.
 - The **custom scoring function (CSF)** enhanced interpretability by quantifying model performance and feature importance.
-- 3D visualizations of HPO and OF tracking provided clear insights into the optimization process and model behavior.
+- 3D visualizations of HPO and OF tracking provided clear insights into the optimization process and model behavior, and the example results:
 ![Results1](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Results1.jpg)
-- The **SVM:RF:GBM ensemble** outperformed individual models, achieving high accuracy and robustness in PDAC classification.
+
+- The **SVM:RF:GBM ensemble** outperformed individual models, achieving high accuracy and robustness in PDAC classification, as follows: 
 ![Results2](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Results2.jpg)
 
 ---
