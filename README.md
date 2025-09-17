@@ -50,8 +50,6 @@ The objectives of this study are:
 - **Model Serialization**: Saving the final SVM:RF:GBM ensemble model with predicted probabilities and performance metrics in a Joblib file.
 - **Visualization**: Generating 3D plots to visualize HPO and OF tracking for interpretability.
 
-> **Note**: The workflow image (`PDAC_Workflow.jpg`) is a placeholder. Consider creating and uploading a workflow diagram to the repository for clarity.
-
 ---
 
 ## 📊 Project Key Findings
@@ -59,8 +57,6 @@ The objectives of this study are:
 - TPE-based HPO effectively identified optimal hyperparameters, improving model performance across all algorithms.
 - The **custom scoring function (CSF)** enhanced interpretability by quantifying model performance and feature importance.
 - 3D visualizations of HPO and OF tracking provided clear insights into the optimization process and model behavior.
-
-> **Note**: Consider adding a figure summarizing key findings (e.g., `Project_Key_Findings.jpg`) to visually represent results, similar to the second repository.
 
 ---
 
