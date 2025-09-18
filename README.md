@@ -58,7 +58,7 @@ The objectives of this study are:
 - 3D visualizations of HPO and OF tracking provided clear insights into the optimization process and model behavior, and the example results:
 ![Results1](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Results1.jpg)
 
-- The **SVM:RF:GBM ensemble** outperformed individual models, achieving high accuracy and robustness in PDAC classification, as follows: 
+- The **SVM:RF:GBM ensemble** outperformed individual models, achieving high accuracy and robustness in PDAC classification: 
 ![Results2](https://raw.githubusercontent.com/kahkengwong/PDAC_paper/main/Results2.jpg)
 
 ---
